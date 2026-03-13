@@ -558,7 +558,7 @@ function renderPage(data) {
 <body>
   <nav class="navbar navbar-expand-lg navbar-ym fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand" href="https://yamahamalang.web.id/" aria-label="Yamaha Malang Home"><img src="https://www.yamaha-motor.co.id/web_new/shared/image/logo-sepeda-motor-yamaha-indonesia.png?1741327215" alt="Logo Yamaha Motor Indonesia - Dealer Yamaha Malang" height="42" width="auto" loading="eager"></a>
+      <a class="navbar-brand" href="index.html" aria-label="Yamaha Malang Home"><img src="https://www.yamaha-motor.co.id/web_new/shared/image/logo-sepeda-motor-yamaha-indonesia.png?1741327215" alt="Logo Yamaha Motor Indonesia - Dealer Yamaha Malang" height="42" width="auto" loading="eager"></a>
       <button class="navbar-toggler border-0 text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigasi"><i class="bi bi-list fs-2"></i></button>
       <div class="collapse navbar-collapse" id="navMenu">
         <ul class="navbar-nav ms-auto gap-1">
