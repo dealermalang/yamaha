@@ -124,7 +124,10 @@ a {
   display: block;
   width: 100%;
   height: auto;
+  object-fit: contain;
+  object-position: center;
   border-radius: 22px;
+  background: rgba(255, 255, 255, 0.04);
 }
 
 .promo-banner-caption {
@@ -338,8 +341,10 @@ a {
 .promo-variant-image {
   display: block;
   width: 100%;
-  height: 220px;
+  height: auto;
+  aspect-ratio: 4 / 3;
   object-fit: contain;
+  object-position: center;
   background: linear-gradient(180deg, #f9fbff 0%, #eef5ff 100%);
 }
 

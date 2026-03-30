@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="id" dir="ltr" prefix="og: https://ogp.me/ns#">
   <head>
     <meta charset="UTF-8" />
@@ -34,6 +34,7 @@
       property="og:image"
       content="https://yamahamalang.web.id/images/yamaha-malang-og.jpg"
     />
+  <meta property="og:image:alt" content="News & Artikel - Dealer Yamaha Malang">
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta name="twitter:card" content="summary_large_image" />
@@ -45,21 +46,15 @@
       name="twitter:description"
       content="Baca artikel terbaru seputar motor Yamaha, tips perawatan, promo dealer, dan info otomotif."
     />
-    <meta
-      name="twitter:image"
-      content="https://yamahamalang.web.id/images/yamaha-malang-og.jpg"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="https://yamahamalang.web.id/images/favicon.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      href="https://yamahamalang.web.id/images/apple-touch-icon.png"
-    />
-
-    <!-- Schema JSON-LD -->
+  <meta name="twitter:image" content="https://yamahamalang.web.id/images/yamaha-malang-og.jpg">
+  <meta name="twitter:image:alt" content="News & Artikel - Dealer Yamaha Malang">
+    
+  <meta name="theme-color" content="#0d47a1">
+  <link rel="icon" type="image/webp" href="images/articles/logo-yamaha.webp">
+  <link rel="apple-touch-icon" href="images/articles/logo-yamaha.webp">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="preload" as="image" href="https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026020516022374054T48660.png">
+<!-- Schema JSON-LD -->
     <script type="application/ld+json">
       [
         {
@@ -88,6 +83,75 @@
               "item": "https://yamahamalang.web.id/news"
             }
           ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          "name": "Daftar Artikel Yamaha Malang",
+          "itemListOrder": "https://schema.org/ItemListOrderDescending",
+          "numberOfItems": 10,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "url": "https://yamahamalang.web.id/yamaha-aerox-alpha-2026-revolusi-skutik-sport-dengan-teknologi-cybercity.html",
+              "name": "Yamaha Aerox Alpha 2026: Revolusi Skutik Sport dengan Teknologi CyberCity"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "url": "https://yamahamalang.web.id/7-tips-perawatan-motor-matic-yamaha-agar-tetap-awet-dan-performa-optimal.html",
+              "name": "7 Tips Perawatan Motor Matic Yamaha Agar Tetap Awet dan Performa Optimal"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "url": "https://yamahamalang.web.id/promo-spesial-maret-2026-diskon-hingga-rp-2-juta-untuk-semua-tipe-motor.html",
+              "name": "Promo Spesial Maret 2026"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "url": "https://yamahamalang.web.id/5-fitur-unggulan-nmax-turbo-yang-bikin-kompetitor-ketar-ketir.html",
+              "name": "5 Fitur Unggulan NMAX TURBO"
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "url": "https://yamahamalang.web.id/yamaha-sunday-race-2026-malang.html",
+              "name": "Yamaha Sunday Race 2026 Malang"
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "url": "https://yamahamalang.web.id/panduan-kredit-motor-yamaha.html",
+              "name": "Panduan Kredit Motor Yamaha"
+            },
+            {
+              "@type": "ListItem",
+              "position": 7,
+              "url": "https://yamahamalang.web.id/daftar-motor-yamaha-terbaru-di-dealer-yamaha-malang-dan-harganya.html",
+              "name": "Daftar Motor Yamaha Terbaru di Malang"
+            },
+            {
+              "@type": "ListItem",
+              "position": 8,
+              "url": "https://yamahamalang.web.id/harga-motor-yamaha-nmax-di-malang-terbaru-dan-simulasi-kredit.html",
+              "name": "Harga Yamaha NMAX di Malang"
+            },
+            {
+              "@type": "ListItem",
+              "position": 9,
+              "url": "https://yamahamalang.web.id/harga-yamaha-aerox-di-malang-dan-perbandingan-setiap-variannya.html",
+              "name": "Harga Yamaha Aerox di Malang"
+            },
+            {
+              "@type": "ListItem",
+              "position": 10,
+              "url": "https://yamahamalang.web.id/perbandingan-yamaha-nmax-vs-aerox-mana-yang-lebih-cocok-di-malang.html",
+              "name": "Perbandingan Yamaha NMAX vs Aerox"
+            }
+          ]
         }
       ]
     </script>
@@ -96,6 +160,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+  <link rel="preconnect" href="https://www.yamaha-motor.co.id" crossorigin>
+  <link rel="dns-prefetch" href="//www.yamaha-motor.co.id">
+  <link rel="dns-prefetch" href="//wa.me">
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
       rel="stylesheet"
@@ -611,12 +678,21 @@
       .fade-up {
         opacity: 0;
         transform: translateY(30px);
-        transition: all 0.6s ease-out;
+        transition: opacity 0.55s ease-out, transform 0.55s ease-out;
+        will-change: opacity, transform;
       }
 
       .fade-up.visible {
         opacity: 1;
         transform: translateY(0);
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        .fade-up {
+          opacity: 1;
+          transform: none;
+          transition: none;
+        }
       }
 
       @media (max-width: 768px) {
@@ -653,12 +729,11 @@
           aria-label="Yamaha Malang Home"
         >
           <img
-            src="https://www.yamaha-motor.co.id/web_new/shared/image/logo-sepeda-motor-yamaha-indonesia.png?1741327215"
+            src="images/articles/logo-yamaha.webp"
             alt="Logo Yamaha Motor Indonesia - Dealer Yamaha Malang"
-            height="42"
-            width="auto"
+            width="143" height="42" style="height:42px;width:auto;object-fit:contain;"
             loading="eager"
-          />
+           decoding="async"  fetchpriority="low" />
         </a>
         <button
           class="navbar-toggler border-0 text-white"
@@ -676,17 +751,11 @@
             <li class="nav-item">
               <a class="nav-link" href="index.html">Home</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="index.html#produk">Produk Motor</a>
-            </li>
-            <li class="nav-item">
+<li class="nav-item">
               <a class="nav-link" href="katalog.html">Katalog</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="index.html#keunggulan">Keunggulan</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="index.html#promo">Promo</a>
+<li class="nav-item">
+              <a class="nav-link" href="promo.html">Promo</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" href="news.html">News</a>
@@ -694,13 +763,7 @@
             <li class="nav-item">
               <a class="nav-link" href="about.html">Tentang</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="index.html#faq">FAQ</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="index.html#kontak">Kontak</a>
-            </li>
-          </ul>
+</ul>
           <a
             href="https://wa.me/62895639068080?text=Halo%20saya%20ingin%20info%20motor%20Yamaha"
             class="btn btn-ym ms-lg-3 mt-2 mt-lg-0"
@@ -742,9 +805,9 @@
                 src="https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026020516022374054T48660.png"
                 class="featured-img w-100"
                 alt="Yamaha Aerox Alpha 2026 Terbaru di Malang"
-                loading="lazy"
+                loading="eager"
                 style="background: #0d1b3e"
-              />
+               decoding="async"  fetchpriority="high"  width="1200"  height="630" />
             </div>
             <div class="col-lg-6">
               <div class="featured-content">
@@ -802,7 +865,7 @@
                     object-fit: contain;
                     padding: 20px;
                   "
-                />
+                 decoding="async"  width="640"  height="360" />
               </div>
               <div class="card-body">
                 <div class="card-meta">
@@ -828,7 +891,7 @@
                     >Baca <i class="bi bi-arrow-right"></i
                   ></a>
                   <span class="small text-muted"
-                    ><i class="bi bi-eye me-1"></i>1.9K views</span
+                    ><i class="bi bi-clock-history me-1"></i>Update terbaru</span
                   >
                 </div>
               </div>
@@ -845,7 +908,7 @@
                   alt="Tips Perawatan Motor Yamaha Matic"
                   loading="lazy"
                   style="background: #f8f9fa; object-fit: cover"
-                />
+                 decoding="async"  width="640"  height="360" />
               </div>
               <div class="card-body">
                 <div class="card-meta">
@@ -871,7 +934,7 @@
                     >Baca <i class="bi bi-arrow-right"></i
                   ></a>
                   <span class="small text-muted"
-                    ><i class="bi bi-eye me-1"></i>980 views</span
+                    ><i class="bi bi-clock-history me-1"></i>Update terbaru</span
                   >
                 </div>
               </div>
@@ -892,7 +955,7 @@
                     object-fit: contain;
                     padding: 20px;
                   "
-                />
+                 decoding="async"  width="640"  height="360" />
               </div>
               <div class="card-body">
                 <div class="card-meta">
@@ -918,7 +981,7 @@
                     >Baca <i class="bi bi-arrow-right"></i
                   ></a>
                   <span class="small text-muted"
-                    ><i class="bi bi-eye me-1"></i>2.5K views</span
+                    ><i class="bi bi-clock-history me-1"></i>Update terbaru</span
                   >
                 </div>
               </div>
@@ -939,7 +1002,7 @@
                     object-fit: contain;
                     padding: 20px;
                   "
-                />
+                 decoding="async"  width="640"  height="360" />
               </div>
               <div class="card-body">
                 <div class="card-meta">
@@ -965,7 +1028,7 @@
                     >Baca <i class="bi bi-arrow-right"></i
                   ></a>
                   <span class="small text-muted"
-                    ><i class="bi bi-eye me-1"></i>1.6K views</span
+                    ><i class="bi bi-clock-history me-1"></i>Update terbaru</span
                   >
                 </div>
               </div>
@@ -986,7 +1049,7 @@
                     object-fit: contain;
                     padding: 20px;
                   "
-                />
+                 decoding="async"  width="640"  height="360" />
               </div>
               <div class="card-body">
                 <div class="card-meta">
@@ -1011,7 +1074,7 @@
                     >Baca <i class="bi bi-arrow-right"></i
                   ></a>
                   <span class="small text-muted"
-                    ><i class="bi bi-eye me-1"></i>750 views</span
+                    ><i class="bi bi-clock-history me-1"></i>Update terbaru</span
                   >
                 </div>
               </div>
@@ -1032,7 +1095,7 @@
                     object-fit: contain;
                     padding: 20px;
                   "
-                />
+                 decoding="async"  width="640"  height="360" />
               </div>
               <div class="card-body">
                 <div class="card-meta">
@@ -1057,7 +1120,7 @@
                     >Baca <i class="bi bi-arrow-right"></i
                   ></a>
                   <span class="small text-muted"
-                    ><i class="bi bi-eye me-1"></i>3.1K views</span
+                    ><i class="bi bi-clock-history me-1"></i>Update terbaru</span
                   >
                 </div>
               </div>
@@ -1078,7 +1141,7 @@
                     object-fit: cover;
                     padding: 0;
                   "
-                />
+                 decoding="async"  width="1200"  height="630" />
               </div>
               <div class="card-body">
                 <div class="card-meta">
@@ -1104,7 +1167,7 @@
                     >Baca <i class="bi bi-arrow-right"></i
                   ></a>
                   <span class="small text-muted"
-                    ><i class="bi bi-eye me-1"></i>1.2K views</span
+                    ><i class="bi bi-clock-history me-1"></i>Update terbaru</span
                   >
                 </div>
               </div>
@@ -1124,7 +1187,7 @@
                     object-fit: contain;
                     padding: 20px;
                   "
-                />
+                 decoding="async"  width="640"  height="360" />
               </div>
               <div class="card-body">
                 <div class="card-meta">
@@ -1150,7 +1213,7 @@
                     >Baca <i class="bi bi-arrow-right"></i
                   ></a>
                   <span class="small text-muted"
-                    ><i class="bi bi-eye me-1"></i>980 views</span
+                    ><i class="bi bi-clock-history me-1"></i>Update terbaru</span
                   >
                 </div>
               </div>
@@ -1170,7 +1233,7 @@
                     object-fit: contain;
                     padding: 20px;
                   "
-                />
+                 decoding="async"  width="640"  height="360" />
               </div>
               <div class="card-body">
                 <div class="card-meta">
@@ -1196,7 +1259,7 @@
                     >Baca <i class="bi bi-arrow-right"></i
                   ></a>
                   <span class="small text-muted"
-                    ><i class="bi bi-eye me-1"></i>1.1K views</span
+                    ><i class="bi bi-clock-history me-1"></i>Update terbaru</span
                   >
                 </div>
               </div>
@@ -1216,7 +1279,7 @@
                     object-fit: contain;
                     padding: 20px;
                   "
-                />
+                 decoding="async"  width="640"  height="360" />
               </div>
               <div class="card-body">
                 <div class="card-meta">
@@ -1242,7 +1305,7 @@
                     >Baca <i class="bi bi-arrow-right"></i
                   ></a>
                   <span class="small text-muted"
-                    ><i class="bi bi-eye me-1"></i>860 views</span
+                    ><i class="bi bi-clock-history me-1"></i>Update terbaru</span
                   >
                 </div>
               </div>
@@ -1262,7 +1325,7 @@
                     object-fit: contain;
                     padding: 20px;
                   "
-                />
+                 decoding="async"  width="640"  height="360" />
               </div>
               <div class="card-body">
                 <div class="card-meta">
@@ -1288,7 +1351,7 @@
                     >Baca <i class="bi bi-arrow-right"></i
                   ></a>
                   <span class="small text-muted"
-                    ><i class="bi bi-eye me-1"></i>740 views</span
+                    ><i class="bi bi-clock-history me-1"></i>Update terbaru</span
                   >
                 </div>
               </div>
@@ -1308,7 +1371,7 @@
                     object-fit: contain;
                     padding: 20px;
                   "
-                />
+                 decoding="async"  width="640"  height="360" />
               </div>
               <div class="card-body">
                 <div class="card-meta">
@@ -1334,7 +1397,7 @@
                     >Baca <i class="bi bi-arrow-right"></i
                   ></a>
                   <span class="small text-muted"
-                    ><i class="bi bi-eye me-1"></i>1.3K views</span
+                    ><i class="bi bi-clock-history me-1"></i>Update terbaru</span
                   >
                 </div>
               </div>
@@ -1353,7 +1416,7 @@
           style="z-index: 1"
         >
           <h2 class="fw-900 mb-3" style="font-size: clamp(1.3rem, 3vw, 2rem)">
-            💬 Punya Pertanyaan Seputar Motor Yamaha?
+            ðŸ’¬ Punya Pertanyaan Seputar Motor Yamaha?
           </h2>
           <p
             class="mb-4 mx-auto"
@@ -1380,13 +1443,12 @@
           <div class="col-lg-4">
             <div class="mb-3">
               <img
-                src="https://www.yamaha-motor.co.id/web_new/shared/image/logo-sepeda-motor-yamaha-indonesia.png?1741327215"
+                src="images/articles/logo-yamaha.webp"
                 alt="Logo Yamaha Motor Indonesia"
-                height="36"
-                width="auto"
+                width="122" height="61"
                 loading="lazy"
                 style="filter: brightness(0) invert(1)"
-              />
+               decoding="async"  fetchpriority="low" />
             </div>
             <p class="small">
               Dealer resmi motor Yamaha di Malang yang menyediakan penjualan
@@ -1398,12 +1460,8 @@
             <h5 class="h6">Navigasi</h5>
             <ul class="list-unstyled small">
               <li class="mb-2"><a href="index.html">Home</a></li>
-              <li class="mb-2"><a href="index.html#produk">Produk Motor</a></li>
-              <li class="mb-2"><a href="katalog.html">Katalog</a></li>
-              <li class="mb-2">
-                <a href="index.html#keunggulan">Keunggulan</a>
-              </li>
-              <li class="mb-2"><a href="index.html#promo">Promo</a></li>
+<li class="mb-2"><a href="katalog.html">Katalog</a></li>
+<li class="mb-2"><a href="promo.html">Promo</a></li>
               <li class="mb-2"><a href="news.html">News</a></li>
               <li class="mb-2"><a href="about.html">Tentang Kami</a></li>
             </ul>
@@ -1489,3 +1547,16 @@
     </script>
   </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+

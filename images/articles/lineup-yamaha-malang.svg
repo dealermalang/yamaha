@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Daftar motor Yamaha terbaru di Dealer Yamaha Malang</title>
+  <desc id="desc">Ilustrasi lineup motor Yamaha kategori matic, sport, dan bebek untuk pembeli di Malang.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#071226" />
+      <stop offset="55%" stop-color="#0e2a57" />
+      <stop offset="100%" stop-color="#12294d" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#e31837" />
+      <stop offset="100%" stop-color="#ff6b6b" />
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.06" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)" />
+  <circle cx="1025" cy="98" r="180" fill="#e31837" opacity="0.14" />
+  <circle cx="205" cy="592" r="210" fill="#00b0ff" opacity="0.12" />
+  <rect x="72" y="72" width="1056" height="531" rx="36" fill="url(#panel)" stroke="#ffffff" stroke-opacity="0.18" />
+  <rect x="72" y="72" width="1056" height="12" fill="url(#accent)" />
+  <text x="96" y="155" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="3">DEALER YAMAHA MALANG</text>
+  <text x="96" y="228" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="64" font-weight="800">Daftar Motor Yamaha Terbaru</text>
+  <text x="96" y="284" fill="#c9d8f2" font-family="Inter, Arial, sans-serif" font-size="28">Bandingkan lini matic, sport, dan bebek plus kisaran harga</text>
+  <g transform="translate(96 340)">
+    <rect width="292" height="180" rx="28" fill="#ffffff" opacity="0.96" />
+    <text x="28" y="44" fill="#102143" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="800">Matic Favorit</text>
+    <text x="28" y="74" fill="#61708a" font-family="Inter, Arial, sans-serif" font-size="18">NMAX, Aerox, Lexi, Filano</text>
+    <g transform="translate(26 90)">
+      <circle cx="52" cy="62" r="18" fill="#102143" />
+      <circle cx="170" cy="62" r="18" fill="#102143" />
+      <path d="M24 60h42l20-28h55l31 28h18l18-8 14 10v14H28z" fill="#e31837" />
+      <path d="M74 32l22-20h48l18 20z" fill="#ffb3ba" opacity="0.9" />
+    </g>
+  </g>
+  <g transform="translate(454 340)">
+    <rect width="292" height="180" rx="28" fill="#ffffff" opacity="0.96" />
+    <text x="28" y="44" fill="#102143" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="800">Sport Performance</text>
+    <text x="28" y="74" fill="#61708a" font-family="Inter, Arial, sans-serif" font-size="18">R15, MT-15, XSR 155, R25</text>
+    <g transform="translate(22 96)">
+      <circle cx="48" cy="56" r="18" fill="#102143" />
+      <circle cx="190" cy="56" r="18" fill="#102143" />
+      <path d="M18 58h48l48-38h38l24 18h25l18 20v16H22z" fill="#0d47a1" />
+      <path d="M109 18l25-14h32l18 14-12 12h-54z" fill="#8cc7ff" opacity="0.95" />
+    </g>
+  </g>
+  <g transform="translate(812 340)">
+    <rect width="292" height="180" rx="28" fill="#ffffff" opacity="0.96" />
+    <text x="28" y="44" fill="#102143" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="800">Bebek Andal</text>
+    <text x="28" y="74" fill="#61708a" font-family="Inter, Arial, sans-serif" font-size="18">Jupiter Z1, Vega Force, MX King</text>
+    <g transform="translate(26 94)">
+      <circle cx="44" cy="56" r="18" fill="#102143" />
+      <circle cx="172" cy="56" r="18" fill="#102143" />
+      <path d="M16 58h44l20-24h48l30 24h28l12 14v14H18z" fill="#f4b400" />
+      <path d="M84 34l20-14h34l18 14-12 12H72z" fill="#fff2b3" opacity="0.98" />
+    </g>
+  </g>
+  <text x="96" y="572" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700">Konsultasi cepat: stok, promo, dan simulasi kredit</text>
+  <text x="96" y="612" fill="#c9d8f2" font-family="Inter, Arial, sans-serif" font-size="22">yamahamalang.web.id</text>
+</svg>
